@@ -21,13 +21,13 @@ public class testMongodb {
 		MongoCollection<Document> colletion = db.getCollection("frame_user");
 		
 		
-		//²åÈëÊı¾İ
+		//ç”¨æˆ·
 		JSONObject user = new JSONObject();
 		user.put("userguid", "110");
-		user.put("username", "²âÊÔÈËÔ±1");
+		user.put("username", "æµ‹è¯•1");
 		user.put("birthday", new Date());
 		user.put("updateTime", new Date());
-		user.put("gender", "ÄĞ");
+		user.put("gender", "ç”·");
 		JSONObject addres = new JSONObject();
 		addres.put("city", "LosAngelos");
 		addres.put("contory", "US");
