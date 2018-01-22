@@ -41,5 +41,7 @@ public class testMongodb {
 			System.out.println("----"+item.getString("username"));
 		}
 		
+		mC.close();
+		
 	}
 }
